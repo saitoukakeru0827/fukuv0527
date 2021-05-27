@@ -17,5 +17,24 @@ namespace fukuv0527
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Top -= 5;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Left += 5;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Left -= 5;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Top += 5;
+        }
     }
 }
